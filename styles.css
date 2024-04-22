@@ -1,0 +1,36 @@
+
+.blurred-background {
+    position: fixed;
+    color: black;
+    top: 0;
+    left:60;
+    right: 50;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('bgimg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+}
+  .image-container {
+    background-image: url("nemudp.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  .pl-background {
+    position: fixed;
+    color: black;
+    top: 0;
+    left:60;
+    right: 50;
+    width: 1500px;
+    height: 900px;
+    z-index: -1;
+    background-image: url('plbg.png'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+}
+
